@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(60deg,rgb(3, 222, 246),rgb(36, 99, 108));
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#area{
+    font-size: 40px;
+    font-family: cursive;
+}
+#temp-area{
+    font-size: 80px;
+}
