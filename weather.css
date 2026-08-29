@@ -3,15 +3,26 @@
     padding: 0px;
 }
 body{
-    background: linear-gradient(60deg,rgb(3, 222, 246),rgb(36, 99, 108));
+    background-image: url(Weather\ Backgound.png);
+    background-size: cover;
+    height: fit-content;
 }
-.location{
+.body{
     display: flex;
     justify-content: center;
-    margin: 10px;
-    border: 1px solid transparent;
-    box-shadow:0px 3px 15px rgba(84, 84, 84, 1);
 }
+.location{
+    margin-top: 20px;
+    width: 200px;
+    border: 1px solid transparent;
+    box-shadow:0px 3px 15px rgb(19, 163, 216);
+    display: flex;
+    justify-content: center;
+}
+#my-location{
+    margin-left :10px; 
+}
+
 #loc{
     margin-left: 20px;
     padding-left: 20px;
