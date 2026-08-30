@@ -5,7 +5,7 @@
 body{
     background-image: url(Weather\ Backgound.png);
     background-size: cover;
-    height: fit-content;
+    height:auto;
 }
 .body{
     display: flex;
@@ -42,4 +42,12 @@ body{
     margin-left: 20px;
     padding-left: 25px;
     font-style: italic;
+}
+.Climate-for-day{
+    border: 5px black transparent;
+    border-radius: 40px;
+}
+.for-day{
+    display: flex;
+    justify-content: space-evenly;
 }
