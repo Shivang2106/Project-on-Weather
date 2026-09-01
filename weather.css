@@ -32,18 +32,18 @@ body{
 #temp-area{
     font-size: xxx-large;
 }
-/* 1st box  complete */
+/* Location complete */
 
 #text{
     text-align: center;
     margin-top: 3px;
     margin-bottom: 3px;
-    font-size: ;
 }
 .for-a-day{
     margin:30px 20px;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #4683b48a;;
+    background-color: #4682b46e;
 }
 .one-day{
     display: flex;
@@ -51,4 +51,33 @@ body{
 }
 .for-hour{
     margin: 20px 20px;
+}/*Climate-for-day complete*/
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ten-day-forcast{
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+#calendar{
+    display: flex;
+    margin-left: 60px;
+}
+#calendar p{
+    margin: 3px 0px;
+}
+.airQualityWind{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.precipition{
+    height: 300px;
+    width: 500px;
+    background-color: purple;
+    border-radius: 20px;
 }
