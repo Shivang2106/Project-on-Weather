@@ -56,18 +56,24 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-.ten-day-forcast{
+.seven-day-forcast{
     height: 300px;
     width: 500px;
     background-color: aqua;
     border-radius: 20px;
 }
+.box3-inner{
+    margin: 7px;
+}
 #calendar{
     display: flex;
-    margin-left: 60px;
+    margin-left: 150px;
 }
 #calendar p{
     margin: 3px 0px;
+}
+#forcast-range{
+    display: flex;
 }
 .airQualityWind{
     height: 300px;
