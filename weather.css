@@ -57,29 +57,51 @@ body{
     justify-content: space-evenly;
 }
 .seven-day-forcast{
-    height: 300px;
-    width: 500px;
-    background-color: aqua;
-    border-radius: 20px;
+    height:max-content;
+    width: auto;
+    background-color: #4682b46e;
+    border-radius: 37px;
 }
 .box3-inner{
     margin: 7px;
 }
 #calendar{
     display: flex;
-    margin-left: 150px;
+    margin: 1px 96px;
 }
 #calendar p{
     margin: 3px 0px;
 }
 #forcast-range{
+    margin: -1px 15px;
     display: flex;
+    justify-content: space-evenly;
 }
+#forcast-range p{
+    margin: 7px;
+}
+#forcast-range img{
+    margin: 5px;
+}
+
+
+
 .airQualityWind{
     height: 300px;
     width: 500px;
-    background-color: blue;
+    background-color:#4682b46e;
     border-radius: 20px;
+}
+.Quality{
+    display: flex;
+    justify-content: center;
+}
+.Quality p{
+    margin:8px 6px;;
+}
+#wind-quality p{
+    font-weight: 600;
+    font-size: large;
 }
 .precipition{
     height: 300px;
